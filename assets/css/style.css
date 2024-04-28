@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h2, h5, p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+}
+.coffee-style h1 ,.deffrent h1, h3{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+body{
+    padding-top: 65px;
+    font-family: "Open Sans",sans-serif;
+}
+.bodycover{
+   background: url(../img/bg-hero-wbvMrFZsLy.png);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.text-color{
+    color: rgb(109, 30, 30);
+}
+.bg-backco{
+    background: wheat;
+}
+.bg-pink{
+    background: #f8e6e9;
+}
+/*nav*/
+.bg-coffico{
+    background-color: rgba(66, 23, 23, 0.826);
+}
+.bg-logo{
+    background-color: linear-gradient(rgb(186, 122, 49),rgba(224, 234, 86, 0.884));
+}
+.container form button{
+    border-radius: 20px;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/hello.webp);
+    background-size: cover;
+    background-position: center;
+}
+.banner h1{
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 100px;
+}
+/*Discover best coffee*/
+.best-coffee{
+    background:linear-gradient(rgb(211, 163, 107),rgba(194, 199, 119, 0.884));
+}
+.best-coffee img{
+    max-width:100%;
+    height:300px; 
+}
+/*--coffee style--*/
+.coffee-style{
+    background: linear-gradient(rgba(194, 199, 119, 0.884),rgb(211, 163, 107));
+    width: 100%;
+}
+.coffee-style .card h5{
+    color: brown;
+}
+.coffee-style .card p span{
+    color: brown;
+}
+.coffee-style .card p{
+    color: grey;
+}
+.position-relative img{
+    width: 300px;
+    height: 250px;
+}
+/*amazing-morning*/
+.amazing-morning{
+    background: url(../img/hero1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*amazing-morning end*/
+/*feedback*/
+.feedback{
+    background: linear-gradient(rgb(243, 225, 225), rgb(220, 210, 228));
+}
+.codechandra{
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+.feedback button img{
+    width: 40px;
+    height: 30px;
+}
+/*latest*/
+.latest{
+    background:linear-gradient(rgba(0,0,0,0.5),rgb(68, 47, 2)), url(../img/hero2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*footer*/
+.ftr{
+    background:linear-gradient(rgb(68, 47, 2),rgba(0,0,0,0.5)), url(../img/footer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ftr .bean{
+    list-style: none;
+}
